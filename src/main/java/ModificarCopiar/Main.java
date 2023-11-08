@@ -20,6 +20,7 @@ public class Main {
         0.      Salir del programa.
          */
         Recetas miReceta = new Recetas();
+        
         int opcion = menu();
         while (opcion != 0) {
             switch (opcion) {
